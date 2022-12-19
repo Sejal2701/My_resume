@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 70%;
+    min-height: 1000px;
+    min-width: 1000px;
+    background: #fff;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 10px 20px 100px rgba(38, 38, 39, 0.84);  
+}
+
+.container .left
+{
+    position: relative;
+    background: skyblue;
+    padding: 0;
+    
+}
+
+.container .left .Contact_Info
+{
+    text-align: left;
+}
+
+.container .right
+{
+    position: relative;
+    background: #fff;
+    padding: 0;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(244, 235, 244, 0.681);
+}
+
+.profileText .profileImg
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px black;
+}
+
+.profileText .profileImg img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.profileText h3
+{
+    color:black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.profileText h4
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Contact_Info
+{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid rgba(244, 235, 244, 0.681);
+}
+
+.title
+{
+    color: rgb(40, 39, 39);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.Contact_Info l
+{
+    position:relative;
+}
+
+.Contact_Info l li
+{
+    position: relative;
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Contact_Info l li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.Contact_Info l li button
+{
+    background-color: skyblue;
+    border-color: skyblue;
+    cursor: pointer;
+    color: darkslateblue;
+    font-size: 15px;
+}
+
+.Contact_Info l li .text
+{
+    color: darkblue;
+    font-weight: 300;    
+}
+
+.General_skills
+{
+    margin: 15px;
+    padding: 1em;
+}
+
+.General_skills l
+{
+    list-style: circle;
+}
+
+.General_skills l li
+{
+    font-weight: 400;
+    color: black; 
+}
+
+.title2
+{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.5em;
+}
+
+.about
+{
+    margin: 40px;
+    margin-top: 50px;
+    background-color: rgb(238, 234, 234);
+    border-bottom: 1px solid black;
+}
+
+.about p
+{
+    margin-bottom: 20px;
+}
+
+.skills
+{
+    margin-left: 20px;
+    margin: 40px;
+    border-bottom: 1px solid black;
+    background-color: rgb(238, 234, 234);
+}
+
+.skills l
+{
+    list-style: circle;
+    margin-bottom: 90px;
+}
+
+.skills l li
+{
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 4px;
+}
+
+.certificates
+{
+    margin: 40px;
+    border-bottom: 1px solid black;
+    background-color: rgb(238, 234, 234);
+}
+
+.certificates l
+{
+    list-style: none;
+}
+
+.certificates l li
+{
+    margin: 30px;
+}
+
+.certificates l li p
+{ 
+    font-weight: 400;
+}
+
+.container2
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px ;
+}
+
+.container2 .left2
+{
+    margin: 20px;
+}
+
+.container2 .right2
+{
+    margin:20px;
+}
+
+.container2 p
+{
+    margin: 10px;
+}
+
+.Education
+{
+    margin: 40px;
+    background-color: rgb(238, 234, 234);
+    border-bottom: 1px solid rgba(19, 19, 19, 0.681);
+}
+
+.Education l
+{
+    list-style: none;   
+}
+
+.Education l li 
+{
+    margin: 15px;
+    background-color: rgb(235, 239, 241);
+}
+
+.Education l li b 
+{
+    color: darkslateblue;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.achievments
+{
+    margin: 40px;
+    border-bottom: 1px solid black;
+    background-color: rgb(238, 234, 234);
+}
+
+.achievments l
+{
+    list-style: none;
+}
+
+.achievments l li
+{
+    margin: 10px;
+}
